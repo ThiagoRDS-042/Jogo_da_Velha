@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#escolha {
+    width: 300px;
+    float: left;
+}
+
+#result {
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+}
+
+#escolha div {
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, .8);
+    border: 1px solid gray;
+}
+
+#top {
+    width: 96%;
+    height: 30%;
+    margin: 2% 0 0 2%;
+}
+
+#center,
+#bottom {
+    width: 96%;
+    height: 30%;
+    margin: 3% 0 0 2%;
+}
+
+button {
+    width: 31%;
+    height: 100%;
+    outline: none;
+}
+
+.central,
+.rigth {
+    margin-left: 3.5%;
+}
+
+#top button {
+    width: 31%;
+    height: 100%;
+}
